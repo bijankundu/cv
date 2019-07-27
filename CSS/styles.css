@@ -1,0 +1,126 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+h1{
+  margin: 0 auto 0.0625rem auto;
+  font-family: 'Sacramento', cursive;
+  font-size:  6.5rem;
+  color: #f0a202;
+}
+h2{
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #11999e;
+  font-size: 2.2rem;
+}
+h3{
+font-family: 'Montserrat Alternates', sans-serif;
+font-size: 1.6rem;
+color: #60d394;
+margin: 1rem;
+}
+p{
+  margin: 1em;
+}
+hr{
+  border-style: dotted none none;
+  border-width: thick;
+  width: 5%;
+  margin: 2em auto 2em auto;
+  color: #d7d1c9;
+}
+.bottom-line{
+  margin: 0 auto 0.0625rem auto;
+  font-size: 1.6rem;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #581f18;
+  font-weight: normal;
+}
+.skill-row{
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+.profile-picture{
+  margin-top: 1rem;
+   border-radius: 30%;
+   height: 200px;
+   background-color: #e0ebe8;
+}
+.top-container{
+  background-color: #e0ebe8;
+  position: relative;
+  padding-top: 100px;
+}
+.C-plus-plus{
+  border-radius: 100%;
+  height: 11rem;
+  width: 11rem;
+  float: left;
+  margin-right: 30px;
+}
+.camera-image{
+  border-radius: 100%;
+  height: 11rem;
+  width: 11rem;
+  border-width: 1px;
+  border-style: solid;
+  float: right;
+  margin-left: 30px;
+}
+.profile{
+  padding: 3rem 0 2rem;
+}
+.contact-me{
+  padding: 0.5rem 0 2rem;
+}
+/*.top-cloud{
+  position: absolute;
+  right: 3.125rem;
+  top: 3.125rem;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 1.875rem;
+  bottom: 15.625rem;
+}*/
+.instagram{
+  width: 5%;
+  height: 5%;
+  margin: auto 1rem;
+  padding: 0.5rem;
+}
+.linkedin{
+  width: 5%;
+  height: 5%;
+  margin: auto 1rem;
+  padding: 0.5rem;
+}
+.facebook{
+  width: 5%;
+  height: 5%;
+  margin: auto 1rem;
+  padding: 0.5rem;
+}
+.facebook:hover , .linkedin:hover{
+background-color: #581f18;
+transform: scale(1.5);
+}
+.instagram:hover{
+  background-color: black;
+  transform: scale(1.5);
+}
+.bottom-container{
+  background-color: #e0ebe8;
+  padding: 2rem 0 2rem;
+}
+.description{
+  width: 45%;
+  margin: auto;
+}
+.copyright{
+  margin: 0.8rem auto 0;
+}
